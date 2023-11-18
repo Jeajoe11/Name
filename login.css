@@ -1,0 +1,66 @@
+@font-face{
+  src: url(Rowdies-Bold.ttf);
+  font-family: Bold;
+}
+body{
+  color: white;
+  font-family: Bold;
+  background-color: #7bb7e5;
+}
+#logi{
+  position: absolute;
+  left: 12%;
+  top: 35%;
+}
+.hp{
+  transition: all 0.3s ease;
+  display: block;
+  transform: translate(12%, 400px);
+  color: white;
+}
+.hp:hover{
+  color: #003a66;
+}
+.title{
+  zoom: 140%;
+  position: absolute;
+  left: 12%;
+  top: 10%;
+}
+label{
+  display: block;
+
+}
+:required{
+  padding-left: 10px;
+  max-width: 300px;
+}
+#subm{
+  min-width: 310px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#subm:hover{
+  background-color: #4f4f4f;
+  color: #ffffff;
+}
+input{
+  zoom: 123%;
+  font-family: bold;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;  
+  border-radius: 15px;
+  border: none;
+}
+.div1{
+  height: 500px;
+  width: 500px;
+  background-color: #3175b4;
+  box-shadow: 0.1px 0.1px 10px white;
+  transform: translate(0%, 15%);
+  border-radius: 7px;
+  margin: auto;
+}
